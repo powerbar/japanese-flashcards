@@ -27,6 +27,28 @@ const searchInput = document.getElementById('searchInput');
 const searchBtn = document.getElementById('searchBtn');
 const clearSearchBtn = document.getElementById('clearSearchBtn');
 
+// Auto-load vocabulary.txt on page load
+window.addEventListener('DOMContentLoaded', () => {
+    fetch('vocabulary.txt')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('vocabulary.txt not found');
+            }
+            return response.text();
+        })
+        .then(content => {
+            parseVocabularyFile(content);
+            fileStatus.textContent = `✓ Auto-loaded vocabulary.txt (${vocabulary.length} cards)`;
+            fileStatus.style.color = '#4CAF50';
+            initializeFlashcards();
+        })
+        .catch(error => {
+            fileStatus.textContent = 'No vocabulary.txt found. Please upload a file.';
+            fileStatus.style.color = '#FF9800';
+            console.log('Auto-load failed:', error);
+        });
+});
+
 // File Upload
 uploadBtn.addEventListener('click', () => fileInput.click());
 
