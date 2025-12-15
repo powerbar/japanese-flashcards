@@ -1,0 +1,101 @@
+きのう,昨日,yesterday
+あした,明日,tomorrow
+らいしゅう,来週,next week
+せんしゅう,先週,last week
+あさ,朝,morning
+まいにち,毎日,every day
+たのしい,楽しい,fun
+しずか(な),静か(な),quiet
+げんき(な),元気(な),healthy; energetic
+おもしろい,面白い,interesting; funny
+いそがしい,忙しい,busy
+すき(な),好き(な),fond of; to like
+ひま(な),暇(な),not busy; free (time)
+いっしょに,一緒に,together
+しんぶん,新聞,newspaper
+じしょ,辞書,dictionary
+ほん,本,book
+くつ,靴,shoes
+ときどき,時々,sometimes
+あまり,余り,not much
+ぜんぜん,全然,not at all
+うみ,海,sea
+ねる,寝る,to sleep
+おきる,起きる,to wake up
+みる,見る,to see; to watch
+あう,会う,to meet
+よむ,読む,to read
+かう,買う,to buy
+する,する,to do
+ある,有る,there is ~ (non-living things)
+いる,居る,(a person) is/are
+わかる,分かる,to understand
+まつ,待つ,to wait
+ちゅうごくご,中国語,Chinese language
+しゃしんをとる,写真を撮る,to take pictures
+なに,何,what
+なんようび,何曜日,what day
+なんじかん,何時間,how many hours
+なんじ,何時,what time
+だれ,誰,who
+だれの,誰の,whose
+どれ,どれ,which one
+ゲーム,ゲーム,game
+アルバイト,アルバイト,part-time job (more colloquially; バイト)
+かいもの,買い物,shopping
+クラス,クラス,class
+いぬ,犬,dog
+ねこ,猫,cat
+ひと,人,person
+こども,子供,child
+つくえ,机,desk
+いす,椅子,chair
+しゃしん,写真,picture; photograph
+はな,花,flower
+ノート,ノート,(term) paper
+ごはん,ご飯,rice; meal
+おてら,お寺,temple
+こうえん,公園,park
+スーパー,スーパー,supermarket
+バスてい,バス停,bus stop
+びょういん,病院,hospital
+ホテル,ホテル,hotel
+うち,家,house
+まち,町,town; city
+レストラン,レストラン,restaurant
+～じかん,～時間,... hours / for ... hours
+いちじかん,一時間,one hour
+とき,時,when...; at the time of... (〜の）
+げつようび,月曜日,Monday
+かようび,火曜日,Tuesday
+すいようび,水曜日,Wednesday
+もくようび,木曜日,Thursday
+きんようび,金曜日,Friday
+あう,会う,to meet; to see a person (person に)
+ある,有る,there is... (place に)
+かう,買う,to buy (.... を）
+かく,書く,to write (person に thing を）
+とる,撮る,to take (a picture) (～を)
+まつ,待つ,to wait（〜を）
+わかる,分かる,to understand (〜が)
+いる,居る,(a person) is in...; stays at ...; (place に) about (a person)
+ごめんなさい,御免なさい,I'm sorry
+それから,それから,and then
+だから,だから,so; therefore
+たくさん,沢山,many; a lot
+どうして,どうして,and why
+ひとりで,一人で,alone; by oneself
+もしもし,もしもし,Hello? (used on the phone)
+たべる,食べる,to eat
+のむ,飲む,to drink
+はなす,話す,to speak; to talk
+きく,聞く,to listen; to hear
+べんきょうする,勉強する,to study
+はたらく,働く,to work
+あそぶ,遊ぶ,to play
+やすむ,休む,to rest
+でかける,出かける,to go out
+かえる,帰る,to return; to go home
+くる,来る,to come
+あける,開ける,to open
+しめる,閉める,to close

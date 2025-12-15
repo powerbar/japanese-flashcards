@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+    Hsiu-hsien Chen
+    12/12/2026
+    Javascript 1 Final Project: Japanese-English Flashcards
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Flashcards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Japanese Flashcards</h1>
+            <div class="file-upload-section">
+                <input type="file" id="fileInput" accept=".txt" style="display: none;">
+                <button class="upload-btn" id="uploadBtn">📁 Load Vocabulary File</button>
+                <span class="file-status" id="fileStatus"></span>
+            </div>
+        </header>
+
+        <div class="search-section">
+            <input type="text" id="searchInput" placeholder="Search Japanese or English..." disabled>
+            <button class="search-btn" id="searchBtn" disabled>🔍 Search</button>
+            <button class="clear-search-btn" id="clearSearchBtn" disabled>✕ Clear</button>
+        </div>
+
+        <div class="stats">
+            <div class="stat-item">
+                <span class="stat-label">Progress:</span>
+                <span class="stat-value" id="progress">0 / 0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Known:</span>
+                <span class="stat-value" id="knownCount">0</span>
+            </div>
+        </div>
+
+        <div class="flashcard-wrapper">
+            <div class="flashcard" id="flashcard">
+                <div class="card-content front" id="cardFront">
+                    <p class="hint">Load a vocabulary file to begin</p>
+                </div>
+                <div class="card-content back" id="cardBack">
+                    <p class="hint">Click card to flip</p>
+                </div>
+            </div>
+            <p class="flip-hint">Click card or press SPACE to flip</p>
+        </div>
+
+        <div class="controls">
+            <button class="control-btn" id="prevBtn" disabled>← Previous</button>
+            <button class="control-btn random-btn" id="randomBtn" disabled>Random</button>
+            <button class="control-btn mark-btn" id="markBtn" disabled>Mark as Known</button>
+            <button class="control-btn" id="nextBtn" disabled>Next →</button>
+        </div>
+
+        <div class="controls">
+            <button class="control-btn secondary" id="shuffleBtn" disabled>Shuffle</button>
+            <button class="control-btn secondary" id="resetBtn" disabled>↺ Reset Progress</button>
+            <button class="control-btn secondary" id="showUnknownBtn" disabled>Study Unknown Only</button>
+        </div>
+
+        <div class="instructions">
+            <h3>📖 Instructions</h3>
+            <ul>
+                <li><strong>Load File:</strong> Click "Load Vocabulary File" and select your .txt file</li>
+                <li><strong>Search:</strong> Type Japanese or English word and click Search</li>
+                <li><strong>Random:</strong> Click Random button to jump to a random card</li>
+                <li><strong>Navigate:</strong> Use arrow buttons or ← → arrow keys</li>
+                <li><strong>Flip Card:</strong> Click card or press SPACE</li>
+                <li><strong>Mark Known:</strong> Click ✓ button or press K</li>
+            </ul>
+            
+            <!-- <h4>File Format Examples:</h4>
+            <p><strong>TXT format (3 columns separated by commas):</strong></p>
+            <pre>きのう,昨日,yesterday
+                あした,明日,tomorrow
+                らいしゅう,来週,next week</pre> -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
