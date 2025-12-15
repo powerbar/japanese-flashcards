@@ -14,7 +14,7 @@ Final project for Javascript 1 Class at Mission College, Fall 2025 by Hsiu-hsien
 - Hiragana, Kanji, and English display
 
 ## How to Use
-1. Visit: https://YOUR-USERNAME.github.io/japanese-flashcards/
+1. Visit: https://powerbar.github.io/japanese-flashcards/
 2. Load the vocabulary.txt file
 3. Start studying!
 
